@@ -11,7 +11,14 @@
 - Toán tử if (toán tử điều kiện)
 - Toán tử else if (toán tử rẽ nhánh)
 - Toán switch
-- Toán tử goto và nhãn
-
+- Toán tử goto và nhãn (toán tử điều kiện)
+- Toán tử for (toán tử điều kiện)
+- Toán tử while(TT điều kiện)
+- Toán tử do while(TT điều kiện)
+/*CÂU LỆNH HỖ TRỢ ĐIỀU KIỆN*/
+- Câu lênh break
+- Câu lênh Continue
 
 ## 3. Cấu trúc dữ liệu - Data struct
+- Kiểu mảng array?
+- Kiểu dữ liệu struct?
