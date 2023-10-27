@@ -2,6 +2,7 @@
 
 ## Class là gì?
     Class là lớp trong lập trình OOP, hiểu đơn giản là một định nghĩa chung cho một sự vật hiện tượng nào đó 
+
 ### Bên trong class có:
         - Thuộc tính (Property): là các tính chất có trong class đó, có thể hiểu là có biến thành viên.
         - Phương thức (Method): là các hành động mà class có thể thực hiện, có thể hiểu là các hàm.
@@ -35,9 +36,10 @@ women Jenny; // cấp phát tĩnh cho object (biến) Jenny thuộc class (kiể
 // NÊN
 women *Sara; // cấp phát động cho đối tượng Sara thuộc lớp women
 ```
-Vì cấp phát tĩnh lưu ở Stack 
+## Vì cấp phát tĩnh lưu ở Stack 
     - ít dung lượng
     - truy cập nhanh
-Cấp phát động lưu ở Heap
+
+## Cấp phát động lưu ở Heap
     - Dung lượng lớn
     - Linh hoạt theo RAM
