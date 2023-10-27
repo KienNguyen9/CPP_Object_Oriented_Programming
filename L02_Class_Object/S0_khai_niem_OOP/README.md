@@ -15,10 +15,12 @@ Một cách giản lược, lập trình hướng đối tượng là một các
 
 ### Lập trình hướng đối tượng có nhiều ưu điểm, bao gồm:
 
-Tính trừu tượng: Lập trình hướng đối tượng cho phép lập trình viên tập trung vào các tính chất và hành vi của đối tượng, mà không cần phải quan tâm đến cách thức thực hiện.
-Tính tái sử dụng: Lập trình hướng đối tượng cho phép lập trình viên tái sử dụng mã nguồn đã được viết.
-Tính bảo mật: Lập trình hướng đối tượng cho phép lập trình viên bảo vệ dữ liệu khỏi truy cập trái phép.
-Tính mở rộng: Lập trình hướng đối tượng cho phép lập trình viên dễ dàng mở rộng ứng dụng.
+- Tính trừu tượng: Lập trình hướng đối tượng cho phép lập trình viên tập trung vào các tính chất và hành vi của đối tượng, mà không cần phải quan tâm đến cách thức thực hiện.
+- Tính tái sử dụng: Lập trình hướng đối tượng cho phép lập trình viên tái sử dụng mã nguồn đã được viết.
+- Tính bảo mật: Lập trình hướng đối tượng cho phép lập trình viên bảo vệ dữ liệu khỏi truy cập trái phép.
+- Tính mở rộng: Lập trình hướng đối tượng cho phép lập trình viên dễ dàng mở rộng ứng dụng.
+
+
 Lập trình hướng đối tượng là một mẫu hình lập trình phổ biến được sử dụng trong nhiều ngôn ngữ lập trình, bao gồm Java, C++, Python, JavaScript,...
 
 VD: 
