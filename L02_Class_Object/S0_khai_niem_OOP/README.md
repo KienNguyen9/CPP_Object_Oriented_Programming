@@ -4,8 +4,8 @@
 ## Lập trình OOP là gì?
 
 VD: 
-| Structure programming paradigm  | Object Oriented programming paradigm |
-|- Funtions:                      | - Class & Object                     |
+
+| Structure programming paradigm-Funtions:| Object Oriented programming paradigm - Class & Object|
 |---|---|
 | 1. Vẽ ra sân bóng               |   1. Người, cầu thủ, trọng tài  |
 | 2. Vẽ Người                     |   2. quả bóng |
