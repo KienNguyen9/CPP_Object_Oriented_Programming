@@ -34,7 +34,7 @@ class women
 // KHÔNG NÊN 
 women Jenny; // cấp phát tĩnh cho object (biến) Jenny thuộc class (kiểu dữ liệu) 
 // NÊN
-women *Sara; // cấp phát động cho đối tượng Sara thuộc lớp women
+women *Sara = new women; // cấp phát động cho đối tượng Sara thuộc lớp women
 ```
 ## Vì cấp phát tĩnh lưu ở Stack 
     - ít dung lượng
