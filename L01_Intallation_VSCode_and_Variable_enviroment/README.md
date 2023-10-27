@@ -20,5 +20,5 @@
 - Câu lênh Continue
 
 ## 3. Cấu trúc dữ liệu - Data struct
-- Kiểu mảng array?
+- Kiểu mảng array?  
 - Kiểu dữ liệu struct?
