@@ -33,6 +33,7 @@ class woman
     private:
     float weight;
 };
+
 int main()
 {
     // Khai báo một object tên jenny, được cấp phát động vùng nhớ 

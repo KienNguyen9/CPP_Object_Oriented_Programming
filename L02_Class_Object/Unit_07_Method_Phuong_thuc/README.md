@@ -1,6 +1,6 @@
 # Bài 7 - Phương thức trong OOP
 
-## Sự khác nhau của hàm thành viên hay phương thức so với hàm bình thường
+## Sự khác nhau của hàm thành viên (hay phương thức) so với hàm bình thường
 - Lời gọi hàm (Function call): là điểm khác biệt đầu tiên, cú pháp của lời gọi hàm thành viên là 
 ```C++
 // Lời gọi hàm bình thường
@@ -8,12 +8,14 @@ callFunction();
 // Lời gọi hàm thành viên
 object_A->callFunction_A(); 
 ```
+
 ## Tham số mặc định của hàm thành viên - defaul parameter 
 - Là viết ra một hành thành viên có tham số mặc định
 - Khi ko nhập tham số lúc gọi hàm thì hàm sẽ dùng tham số mặc định để làm việc
+
 ### Lưu ý: Nếu hàm có 2 tham số trở lên thì:
 - Bắt buộc phải viết tham số mặc định ở phía sau cùng
-- Do cần phải phù hợp logic khi truyền hoặc không truyền tham số'
+- Do cần phải phù hợp logic khi truyền hoặc không truyền tham số 
 
 Ví dụ:
 ```C++
@@ -42,6 +44,8 @@ struct dùng cấp phát tĩnh, dùng để tạo kiểu dữ liệu gồm các 
 class nên dùng cấp phát động, để tạo kiểu dữ liệu nhiều thuộc tính và phương thức phức tạp hơn
 
 ## Nạp chồng hàm
-...
+Là một tính năng trong lặp trình C++, cho phép khai báo nhiều hàm cùng tên nhưng khác nhau về kiểu trả về, số lượng và kiểu của tham số.
+Giúp viết mã linh hoạt hơn.
+Nạp chồng hàm là đơn giản nhất, ngoài ra còn có thể nạp chồng cho các toán tử vd như: +, -, *, /, ...
+
 ## Nạp chồng toán tử 
-...
