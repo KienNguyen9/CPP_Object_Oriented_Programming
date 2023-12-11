@@ -36,9 +36,16 @@ public:
     int age;
     // Constructor function - cung cấp giá trị ban đầu để tránh nhưng hành động không xác định
     // Tham số cho hàm khởi tạo 
+    women()
+    {
+        cout << "\n\nCreated a new woman.\n";
+        fullName = "Unknown";
+        age = 0;
+    }
+
     women(string fn, int a)
     {
-        cout << "\nCreated a new woman.\n";
+        cout << "\n\nCreated a new woman.\n";
         fullName = fn;
         age = a;
     }
@@ -64,6 +71,16 @@ int main()
 
     women* Nicky = new women("Nicky", 33);
     Nicky->introduce();
+
+    // Với class nhỏ muốn dùng cấp phát tĩnh 
+    // Với cấp phát tĩnh
+    women Hanni("Hanni", 18);
+    // Thay -> bằng . 
+    Hanni.introduce();
+
+    // Hàm khởi tạo mặc định
+    women* somebody = new women;
+    somebody->introduce(); 
 
     return 0;
 }
