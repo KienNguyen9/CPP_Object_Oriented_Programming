@@ -47,7 +47,7 @@ class woman
     // Hàm hủy
     ~woman() // Thêm "~" trước tên hàm, trùng với tên class để tạo hàm hủy
     {
-        
+        std::cout << "Deleted a woman"; 
     }
     void makeUp(){}
     void introduce(){}
