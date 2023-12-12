@@ -11,7 +11,12 @@ Hàm hủy có tên bắt đầu bằng ký tự ~ và không có tham số. Hà
 - Thực hiện các công việc dọn dẹp khác.
 
 <h3>Chú ý thêm:</h3>
-Với cấp phát tĩnh, vùng nhớ sẽ được thu hồi khi kết thúc hàm, nên ko cần phải hủy đối với cấp phát tĩnh
+
+- Với cấp phát tĩnh, vùng nhớ sẽ được thu hồi khi kết thúc hàm (chương trình con hoặc main), nên ko cần phải hủy đối với cấp phát tĩnh. Nó sẽ tự gọi hàm hủy khi hết scope của function chứa nó
+- Với cấp phát động thì phải gọi hàm hủy bằng, câu lệnh ```delete objectName``` . Nếu muốn thu hồi vùng nhớ
+
+- Vậy hàm hủy được viết tường mình để làm gì? trong khi hủy thì sẽ hủy toàn bộ các dữ liệu bên trong nó?
+- Hàm hủy được viết tường mình khi, trong class hiện tạo có một đối tượng cấp phát động khác nằm trong class đó. Hàm hủy sẽ không tự động hủy dữ liệu của đối tượng đó. Nên ta cần viết tường mình hàm hủy để thu hồi vùng nhớ đó.
 
 <h3>Để thực hiện hủy:</h3>
 
