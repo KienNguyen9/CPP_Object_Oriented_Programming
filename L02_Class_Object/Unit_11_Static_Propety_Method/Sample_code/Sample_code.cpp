@@ -14,8 +14,16 @@ using namespace std;
 class Women
 {
 public:
-    // thuộc tính propety static
+    // thuộc tính propety static - Dùng để đếm số lượng object
     static int numberWomen;
+
+    // Constructor Women
+    Women()
+    {
+        // Mỗi khi khởi tạo thì số lượng object tăng lên 1
+        numberWomen++;
+
+    }
 
     // Phương thức method static
     static void what()
@@ -26,7 +34,7 @@ public:
 private:
 };
 
-// Khai báo bên ngoài, cho thuộc tính static
+// Khai báo bên ngoài, cho thuộc tính static - Dùng để đếm số lượng object
 int Women::numberWomen = 0; 
 
 int main()
@@ -37,6 +45,11 @@ int main()
     jenny->what();
     //Gọi thông qua class
     Women::what();
+
+    Women* June = new Women;
+
+    // cách truy cập biến static - Giống y như biến toàn cục - nhưng được class quản lý - gọi qua dấu ::
+    cout << Women::numberWomen;
 
     return 0;
 }
