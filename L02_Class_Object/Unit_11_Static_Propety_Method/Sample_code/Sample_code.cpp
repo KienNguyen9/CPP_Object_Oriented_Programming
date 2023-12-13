@@ -14,6 +14,10 @@ using namespace std;
 class Women
 {
 public:
+    // thuộc tính propety static
+    static int numberWomen;
+
+    // Phương thức method static
     static void what()
     {
         cout  << "Women is women!\n";
@@ -21,6 +25,9 @@ public:
 
 private:
 };
+
+// Khai báo bên ngoài, cho thuộc tính static
+int Women::numberWomen = 0; 
 
 int main()
 {
