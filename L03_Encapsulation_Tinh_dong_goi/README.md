@@ -1,7 +1,7 @@
 # Encapsulation - Tính đóng gói
 
-- Hướng đối tượng OOP là một mô hình lập trình, nên sẽ có các nguyên tắc thiết kế của nó
-- Và nó cần thỏa mản 4 nguyên tắc, đầu tiên là tính đóng gói(Encapsulation), hai là tính trừu tượng, ba là tính kế thừa, cuối cùng là tính đa hình.
+Hướng đối tượng OOP là một mô hình lập trình, nên sẽ có các nguyên tắc thiết kế của nó
+Và nó cần thỏa mản 4 nguyên tắc, đầu tiên là tính đóng gói(Encapsulation), hai là tính trừu tượng, ba là tính kế thừa, cuối cùng là tính đa hình.
 
 <h3>Nội dung chính: </h3>
 
