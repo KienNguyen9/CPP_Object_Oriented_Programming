@@ -9,6 +9,5 @@
 - Hiểu đơn giản là cái gì liên quan đế thuộc tính ```propety``` thì đặt vào vùng ```private```
 - Như vậy, khi cần sửa đổi hoặc đọc một thuộc tính thì ta bắt buộc phải dùng một phương thức đặt ở public để truy cập và sửa đổi thuộc tính đó 
 - Cặp hàm setter - getter : dùng từ khóa ```set```, ```get``` thêm tên thuộc tính phía sau để đặt tên phương thức
-
-11' tiếp tục
- 
+- Tại sao phải làm như thế cho phức tạp vấn đề? Vì đây là nguyên tắc của OOP để đảm bảo tính bảo mật của chương trình 
+- Cần phải chú ý khi lựa chọn giữa ```struct``` và ```class```. Khi đối tượng có độ phức tạp về thuộc tính và phương thức thì dùng ```class``` , còn với một tập hợp các biến đơn thuần thì dùng ```struct``` 

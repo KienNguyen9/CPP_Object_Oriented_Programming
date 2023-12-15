@@ -12,6 +12,13 @@
 #include <string>
 using namespace std;
 
+// Với kiểu dữ liệu nào nên dùng struct hơn là class
+struct bodyzise{
+
+    int sizeOfBody[3];
+    char shirtSize; // S,M,L,XL.XXL
+};
+
 // Class women
 class women{
 // Vùng public
@@ -21,16 +28,17 @@ public:
         fullName = fn;
         age = a; 
     }
+
     // Phương thức giới thiệu
     void introduce(){
         cout << "\nHello! "<< "My name is " << fullName << '\n' << "I'm " << age << " years old.";
     }
 
+    // Cập hàm setter - getter để thao tác với các thuộc tính đã được đóng gói 
     void setAge(int a)
     {
         age = a;
     }
-
     int getAge()
     {
         return age;
@@ -43,6 +51,7 @@ private:
     string fullName;
     int age;
     float weight;
+    bodyzise bodySize;
 };
 
 int main()
