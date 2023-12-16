@@ -2,7 +2,16 @@
  * @file main.cpp
  * @author Kevin Nguyen
  * @brief Abstraction - Tính trù tượng
+ * 
  * Đây là ví dụ về tính trù tượng trong C++
+ * Trong ví dụ này cần chú ý tới class health_checker 
+ * Có 2 hàm là checker() và getResult() 
+ * Người dùng chỉ cần gọi hàm checker() để kiểm tra 
+ * và gọi hàm getResult() để nhận kết quả 
+ * Vì nó đã được TEST và bàn giao cho người code tiếp theo
+ * Mà không cần biết bên trong các hàm đó được cài đặt như thế nào 
+ * 
+ * ĐÓ ĐƯỢC GỌI LÀ TÍNH TRỪ TƯỢNG - Nó giúp nhiều người cùng thực hiện 1 dự án 1 các đơn giản hơn - dễ bảo trì bảo dưỡng 
  * 
  * @version 0.1
  * @date 2023-12-16
@@ -67,7 +76,11 @@ public:
     {
         return height;
     }
-
+    // Getter-setter
+    string getFullName()
+    { 
+        return fullName;
+    }
 // Vùng private
 private:
 // Theo tính đóng gói thì, các thuộc tính của đối tượng phải được đặt vào vùng private
@@ -90,16 +103,26 @@ public:
         height = Women->getHeight();
         // Giả sử ta có thiết bị để đo nhịp tim và huyết áp
         // Đây chỉ là mã giả
-        bloodPressure = 120; // Giả sử lấy bằng hàm getBloodPressure() từ 1 class Device 
+        bloodPressure = 130; // Giả sử lấy bằng hàm getBloodPressure() từ 1 class Device 
         heartBeat = 80; // tương tự cho nhịp tim 
     }
 
     // Hàm trả ra kết quả kiểm tra
     string getResult()
     {
+        // Chi tiết cách viết hàm
+        float bmi = weight/(height*height);
         // Xuất ra chỉ số BMI
-        cout << 
+        if(bmi >= 18.5 && bmi <= 24.9 
+        && bloodPressure >= 120 && bloodPressure < 140 
+        && heartBeat >= 65 && heartBeat < 100)
+        {
+            return "Normal";
+        } 
+        return "Abnormal";
     }
+
+
 private:
     float weight;
     float height;
@@ -109,13 +132,12 @@ private:
 
 int main()
 {
-    women* jenny = new women("Jenny",20,45,165);
+    women* jenny = new women("Jenny",20,55,1.65);
     jenny->introduce();  
 
     // Tạo 1 lần kiểm tra sức khỏe
     health_checker* checker = new health_checker();
     checker->checker(jenny);
-
-    
+    cout <<"\nThe Health of " << jenny->getFullName() << " is: " <<checker->getResult();    
     return 0;
 }
