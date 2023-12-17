@@ -1,9 +1,9 @@
 /**
  * @file main.cpp
  * @author Kevin Nguyen
- * @brief Ví dụ đơn giản về Overriding - chưa dùng hàm ảo virtual
+ * @brief Ví dụ này là về thêm thuộc tính cho một lớp dẫn xuất
  * @version 0.1
- * @date 2023-12-16
+ * @date 2023-12-17
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -40,6 +40,8 @@ public:
     }
 
     // Hàm run() - thệ hiện hành động chạy 
+    // Đây là phương thức của lớp cha, nhưng trong ví dụ này KHÔNG DÙNG "virtual function" mà overriding  
+    // Nhưng từ khóa virtual là khuyến nghị nên dùng
     void run()
     {
         std::cout << "The Vehicle is running.";
@@ -59,12 +61,38 @@ private:
 class Taxi : public Vehicle
 {
 public:
+    // Overriding - kế thừa và thêm tính năng
+    // Đây là phương thức của lớp cha, nhưng trong ví dụ này KHÔNG DÙNG "virtual function" mà overriding  
+    // Nhưng từ khóa virtual là khuyến nghị nên dùng
     void run()
     {
         Vehicle::run();
         std::cout << "\nIt's a taxi.";
     }
+
+    /**
+     * @brief Overloading - viết lại hàm run() có thêm tham số để set số KM
+     * 
+     */
+    void run(int km)
+    {
+        kmCounter = km; 
+    }
+
+    /**
+     * @brief Hàm tính tiền taxi
+     * được tính bằng công thức: 10000*kmCounter
+     */
+    int feeCalculate()
+    {
+        return kmCounter*10000;
+    }
 private:
+    /**
+     * @brief Thuộc tính mới cần thêm vào để tính tiền cho các chuyến taxi
+     * là một thuộc tính số nguyên
+     */
+    int kmCounter;
 
 };
 
@@ -81,7 +109,7 @@ int main()
 {
     //Tạo một đối tượng Vehicle
     Taxi* Taxi_1 = new Taxi;
-    Taxi_1->run();
-
+    Taxi_1->run(10); 
+    std::cout << "\nFee = " << Taxi_1->feeCalculate() << " VND\n";
     return 0;
 }
