@@ -2,7 +2,7 @@
 <details>
     <summary>
         <h2>
-            Lesson 1 - Giới thiệu khái niệm cơ bản về OOP
+            Lesson 1️⃣ - Giới thiệu khái niệm cơ bản về OOP
         </h2>        
     </summary>
 
@@ -38,7 +38,7 @@ Tạo một lớp cho các đối tượng người: Lớp này có thể xác �
 <details>
     <summary>
         <h2>
-            Lesson 2 - Class & Object 
+            Lesson 2️⃣ - Class & Object 
         </h2>        
     </summary>
         
@@ -111,7 +111,7 @@ VD:
 <details>
     <summary>
         <h2>
-            Lesson 
+            Lesson 3️⃣ Nguyên tắc đóng gói - Encapsulation
         </h2>        
     </summary>
 
@@ -123,7 +123,7 @@ VD:
 <details>
     <summary>
         <h2>
-            Lesson 
+            Lesson 4️⃣ Nguyên tắc trừu tượng - Abstraction
         </h2>        
     </summary>
 
@@ -135,7 +135,7 @@ VD:
 <details>
     <summary>
         <h2>
-            Lesson 
+            Lesson 5️⃣ Tính kế thừa - Inheritance
         </h2>        
     </summary>
 
@@ -147,7 +147,7 @@ VD:
 <details>
     <summary>
         <h2>
-            Lesson 
+            Lesson 6️⃣ Tính đa hình - Polymorphism
         </h2>        
     </summary>
 
@@ -159,7 +159,7 @@ VD:
 <details>
     <summary>
         <h2>
-            Lesson 
+            Lesson 7️⃣ Class đặc biệt 
         </h2>        
     </summary>
 
@@ -171,10 +171,39 @@ VD:
 <details>
     <summary>
         <h2>
-            Lesson 
+            Lesson 8️⃣ Ngôn ngữ mô hình hóa UML
         </h2>        
     </summary>
 
     
+
+</details>
+
+<details>
+    <summary>
+        <h2>
+            Lesson 9️⃣ Tối ưu hóa mô hình hướng đối tượng
+        </h2>        
+    </summary>
+
+    
+
+</details>
+
+<details>
+    <summary>
+        <h2>
+            Lesson 🔟 Design pattern
+        </h2>        
+    </summary>    
+
+</details>
+
+<details>
+    <summary>
+        <h2>
+            Extra lesson - Cách tố chức 1 project 
+        </h2>        
+    </summary>    
 
 </details>
