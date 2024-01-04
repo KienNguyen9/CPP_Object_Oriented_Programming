@@ -44,9 +44,9 @@ Tạo một lớp cho các đối tượng người: Lớp này có thể xác �
         
 <details>
    <summary>
-        <h2>
+        <h3>
             Unit 1 - Giới thiệu về OOP 
-        </h2>        
+        </h3>        
     </summary>
 # KHÁI NIỆM LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG 
 
