@@ -81,18 +81,18 @@ int main()
     // CÁCH LÀM SAI - SINH RA LỖI run-time - Tạo đối tượng class cha và ép xuống lớp con với thuộc tính và phương thức mới
     //Vehicle *vehicle_1 = new Vehicle; 
 
-    // Cách làm đề hạn chế lỗi
+    // Cách làm đề hạn chế lỗi: Up-casting trước
     
     // Bước 1: tạo 1 đối tượng con 
     Car *car_1 = new Car;
 
     //Bước 2: Tạo 1 con trỏ parent-class để trỏ vào đối tượng con vừa tạo
     
-    // Cách viết tường mình: Vehicle *vehicle_1 = (Vehicle *)car_1;
-    Vehicle *vehicle_1 = car_1;  
+    // Cách viết tường mình: Vehicle *vehicle_1 = (Vehicle *)car_1; ĐÂY LÀ UP-CASTING
+    Vehicle *vehicle_1 = car_1;  // dùng con trỏ parent-class để lưu đối tượng là của sub-class
     
    
-    
+    // Đây gọi là donw-casting
     //Bước 3: Ép kiểu Con trỏ vừa tạo
     ((Car *)vehicle_1)->run();
 
