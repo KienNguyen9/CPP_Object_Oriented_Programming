@@ -115,7 +115,16 @@ VD:
         </h2>        
     </summary>
 
-    
+### Nội dung chính:
+
+Tính đóng gói - Encapsulation: 
+- Là 1 nguyên tắc, che giấu thuộc tính và phương thức không cho phép truy cập hoặc sửa đổi từ bên ngoài 
+- Chỉ tiết lộ những gì cần thiết và quy định truy cập thuộc qua phương thức công khai 
+
+### Cụ thể như sau:
+
+- Những thuộc tính thì phải đặt trong `private` 
+- Muốn thay đổi hoặc đọc dữ liệu thì phải thông qua phương thức `public`: gettet-setter của thuộc tính đó
 
 </details>
 
@@ -127,6 +136,17 @@ VD:
         </h2>        
     </summary>
 
+### Nội dung chính: 
+
+Nguyên tắc Trừu tượng là gì?
+- Trình bày ngắn gọn 1 việc phức tạp
+- Làm ẩn đi chi tiết của một đối tượng
+- Làm giảm tính phức tạp cho người dùng, không cần đưa nhưng tính toàn bên trong ra cho họ biết.
+
+Trong lập trình:
+- Tính trừ tượng được thể hiện qua lớp trừu tượng `abstract class` (Không được khởi tạo trực tiếp, các lớp khác sẽ kết thừa nó: khởi tạo đối tượng và sử dụng propety, method được kế thừa)
+
+- Ví dụ: Tạo 1 abstract class `shape` có các propety và method để tính chu vi, diện tích của hình. Các lớp con `cycle`, `square`, `rectangle` sẽ kế thừa những propety và method đó và phát triển thêm theo độ phức tạp của các lớp con
     
 
 </details>
