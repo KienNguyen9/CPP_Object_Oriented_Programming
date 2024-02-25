@@ -23,6 +23,17 @@ Có thể làm cho code phức tạp hơn: Việc sử dụng Design Pattern kh�
 Có thể làm giảm hiệu suất: Việc sử dụng Design Pattern có thể làm tăng chi phí overhead, dẫn đến giảm hiệu suất.
 Do đó, cần cân nhắc kỹ lưỡng trước khi sử dụng Design Pattern trong C++.
 
+## Các Design Pattern được biểu diễn thông qua UML
+
+Ngôn ngữ UML là dùng cho hướng đối tượng để biểu diễn cho các Design Pattern (Không chỉ riêng cho C++ mà còn cho các ngôn ngữ khác)
+
+## Tại sao phải dùng Design Pattern?
+
+Ta có thể giải quyết bài toán theo cách của chúng ta, nhưng có thể hiệu quả không cao. Vậy nếu chúng ta không thiết kế được mô hình nào hiệu quả cao hơn thì có thể dúng design pattern như 1 chuẩn chung để đạt hiệu quả trung bình cao nhất 
+
+Trong một số tình huống, thế hệ đi trước đã gặp rất nhiều lần và tạo ra các design pattern để giải quyết vấn đề đó. Nêu hiệu quả là rất cao chúng ta chỉ cần áp dụng
+
+
 ### Dưới đây là một số tài nguyên (Book) hữu ích để tìm hiểu thêm về Design Pattern trong C++:
 
 Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides)
